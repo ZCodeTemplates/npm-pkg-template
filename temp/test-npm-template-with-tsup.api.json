@@ -183,7 +183,7 @@
             },
             {
               "kind": "Content",
-              "text": "number"
+              "text": "string"
             },
             {
               "kind": "Content",
