@@ -19,7 +19,7 @@ Description
 </th></tr></thead>
 <tbody><tr><td>
 
-[test-npm-template-with-tsup](./test-npm-template-with-tsup.md)
+[npm-pkg](./npm-pkg.md)
 
 
 </td><td>

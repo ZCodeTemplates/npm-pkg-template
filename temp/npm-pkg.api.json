@@ -161,20 +161,20 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "test-npm-template-with-tsup!",
+  "canonicalReference": "npm-pkg!",
   "docComment": "",
-  "name": "test-npm-template-with-tsup",
+  "name": "npm-pkg",
   "preserveMemberOrder": false,
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "test-npm-template-with-tsup!",
+      "canonicalReference": "npm-pkg!",
       "name": "",
       "preserveMemberOrder": false,
       "members": [
         {
           "kind": "Function",
-          "canonicalReference": "test-npm-template-with-tsup!add:function(1)",
+          "canonicalReference": "npm-pkg!add:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -231,7 +231,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "test-npm-template-with-tsup!sub:function(1)",
+          "canonicalReference": "npm-pkg!sub:function(1)",
           "docComment": "",
           "excerptTokens": [
             {

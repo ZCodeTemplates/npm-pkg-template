@@ -1,10 +1,11 @@
 {
-  "name": "test-npm-template-with-tsup",
+  "name": "npm-pkg",
   "version": "0.0.6",
   "description": "npm package template with tsup and typescript",
   "scripts": {
     "build:api": "npx tsc && npx api-extractor run --local",
-    "build:docs": "api-documenter markdown -i ./temp -o ./docs"
+    "build:docs": "api-documenter markdown -i ./temp -o ./api-docs",
+    "build": "npm run build:api && npm run build:docs"
   },
   "homepage": "https://github.com/koji/npm-package-template-tsup",
   "url": "https://github.com/koji/npm-package-template-tsup/issue",
