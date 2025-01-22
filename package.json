@@ -1,5 +1,5 @@
 {
-  "name": "npm-template-with-tsup",
+  "name": "test-npm-template-with-tsup",
   "version": "0.0.5",
   "description": "npm package template with tsup and typescript",
   "scripts": {
@@ -17,6 +17,7 @@
   "author": "koji kanao",
   "license": "ISC",
   "devDependencies": {
+    "@microsoft/api-extractor": "^7.49.1",
     "tsup": "^6.7.0",
     "typescript": "^5.1.3"
   },
