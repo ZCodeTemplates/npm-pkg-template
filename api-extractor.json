@@ -9,5 +9,12 @@
   },
   "dtsRollup": {
     "enabled": true
+  },
+  "messages": {
+    "extractorMessageReporting": {
+      "ae-missing-release-tag": {
+        "logLevel": "none"
+      }
+    }
   }
 }
