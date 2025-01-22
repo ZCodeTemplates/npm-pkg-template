@@ -1,2 +1,2 @@
-export { add } from './add';
+export { add, add23 } from './add';
 export { sub } from './sub';

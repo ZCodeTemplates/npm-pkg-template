@@ -28,6 +28,15 @@ Description
 </td></tr>
 <tr><td>
 
+[add23(a, b)](./npm-pkg.add23.md)
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
 [sub(a, b)](./npm-pkg.sub.md)
 
 

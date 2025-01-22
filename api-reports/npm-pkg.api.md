@@ -5,7 +5,10 @@
 ```ts
 
 // @public (undocumented)
-export const add: (a: string, b: number) => number;
+export const add: (a: number, b: number) => number;
+
+// @public (undocumented)
+export const add23: (a: number, b: number) => number;
 
 // @public (undocumented)
 export const sub: (a: number, b: number) => number;

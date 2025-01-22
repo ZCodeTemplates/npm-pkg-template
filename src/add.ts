@@ -1,15 +1,8 @@
-export const add = (a:string, b:number):number => {
+export const add = (a:number, b:number):number => {
   return 2
 }
 
-export const add2 = (a:number, b:number):number => {
+export const add23 = (a:number, b:number):number => {
   return a + b
 }
 
-
-
-/*
-* npx tsc
-* npx api-extractor run --local
-
-* */
