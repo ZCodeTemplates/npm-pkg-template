@@ -1,4 +1,17 @@
-## 2.0.3 (2025-01-23)
+# [5.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v4.0.0...v5.0.0) (2025-01-23)
+
+
+
+# [4.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v3.0.0...v4.0.0) (2025-01-23)
+
+
+### Bug Fixes
+
+* test added version patch ([516b90d](https://github.com/ZCodeTemplates/npm-pkg-template/commit/516b90d9b230247748f0273e04747b50c3293953))
+
+
+
+# [3.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/2a5b17a2e9ee91ef8f3eb3d919a12cebf3b42f05...v3.0.0) (2025-01-23)
 
 
 ### Bug Fixes
@@ -9,7 +22,7 @@
 * test added version patch ([2a3a1eb](https://github.com/ZCodeTemplates/npm-pkg-template/commit/2a3a1ebe15ac77b429a5368c71481f05d3b6a99a))
 * test added version patch ([66494dd](https://github.com/ZCodeTemplates/npm-pkg-template/commit/66494dd698eba58a9101dd3dc9585071dcacbd9d))
 * test added version patch ([7659377](https://github.com/ZCodeTemplates/npm-pkg-template/commit/7659377e676a2093336472455b5800dccf1e6ff3))
-g
+
 
 ### Features
 
@@ -24,8 +37,6 @@ g
 * test ([d60fc0d](https://github.com/ZCodeTemplates/npm-pkg-template/commit/d60fc0d606840ae90d91b311bec1dac0f1d65ce7))
 * test ([d7d3aa4](https://github.com/ZCodeTemplates/npm-pkg-template/commit/d7d3aa410bf1e0c3deef4e5bf0e840eeb42d74ef))
 * test ([30e30c7](https://github.com/ZCodeTemplates/npm-pkg-template/commit/30e30c7292d97168e72d9a484b9867d8edf41c80))
-
-
 
 
 
