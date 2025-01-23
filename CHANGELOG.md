@@ -1,9 +1,10 @@
-## 1.0.2 (2025-01-23)
+## 1.0.3 (2025-01-23)
 
 
 ### Bug Fixes
 
 * removed tsup ([0bacebb](https://github.com/ZCodeTemplates/npm-pkg-template/commit/0bacebb956c4ef7a8a2e074642c93a2c601b6b6f))
+* test added version patch ([2a3a1eb](https://github.com/ZCodeTemplates/npm-pkg-template/commit/2a3a1ebe15ac77b429a5368c71481f05d3b6a99a))
 * test added version patch ([66494dd](https://github.com/ZCodeTemplates/npm-pkg-template/commit/66494dd698eba58a9101dd3dc9585071dcacbd9d))
 * test added version patch ([7659377](https://github.com/ZCodeTemplates/npm-pkg-template/commit/7659377e676a2093336472455b5800dccf1e6ff3))
 
