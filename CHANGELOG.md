@@ -1,9 +1,41 @@
-## 1.0.2 (2025-01-23)
+# [6.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v5.0.0...v6.0.0) (2025-01-23)
+
+
+### Bug Fixes
+
+* test made by me ([6e7a3b8](https://github.com/ZCodeTemplates/npm-pkg-template/commit/6e7a3b8c378dca4ac4efcfdaafab5a447e2c8d44))
+
+
+### Features
+
+* add new feature ([8174123](https://github.com/ZCodeTemplates/npm-pkg-template/commit/8174123d0c0ad7cf2c0e11643334f01c5fa0a0d2))
+* add new feature ([d2b1003](https://github.com/ZCodeTemplates/npm-pkg-template/commit/d2b10035bd0002399ece24ca10db954cf1833a67))
+
+
+
+# [5.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v4.0.0...v5.0.0) (2025-01-23)
+
+
+
+# [4.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v3.0.0...v4.0.0) (2025-01-23)
+
+
+### Bug Fixes
+
+* test added version patch ([516b90d](https://github.com/ZCodeTemplates/npm-pkg-template/commit/516b90d9b230247748f0273e04747b50c3293953))
+
+
+
+# [3.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/2a5b17a2e9ee91ef8f3eb3d919a12cebf3b42f05...v3.0.0) (2025-01-23)
 
 
 ### Bug Fixes
 
 * removed tsup ([0bacebb](https://github.com/ZCodeTemplates/npm-pkg-template/commit/0bacebb956c4ef7a8a2e074642c93a2c601b6b6f))
+* test added version patch ([76879fa](https://github.com/ZCodeTemplates/npm-pkg-template/commit/76879fa154a71d666807f227be38310588f300b4))
+* test added version patch ([7b0fb9f](https://github.com/ZCodeTemplates/npm-pkg-template/commit/7b0fb9f74028ae726f28557e20a0ec10b59d16a0))
+* test added version patch ([2a3a1eb](https://github.com/ZCodeTemplates/npm-pkg-template/commit/2a3a1ebe15ac77b429a5368c71481f05d3b6a99a))
+* test added version patch ([66494dd](https://github.com/ZCodeTemplates/npm-pkg-template/commit/66494dd698eba58a9101dd3dc9585071dcacbd9d))
 * test added version patch ([7659377](https://github.com/ZCodeTemplates/npm-pkg-template/commit/7659377e676a2093336472455b5800dccf1e6ff3))
 
 
