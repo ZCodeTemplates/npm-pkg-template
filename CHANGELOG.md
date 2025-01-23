@@ -4,6 +4,7 @@
 ### Bug Fixes
 
 * removed tsup ([0bacebb](https://github.com/ZCodeTemplates/npm-pkg-template/commit/0bacebb956c4ef7a8a2e074642c93a2c601b6b6f))
+* test added version patch ([66494dd](https://github.com/ZCodeTemplates/npm-pkg-template/commit/66494dd698eba58a9101dd3dc9585071dcacbd9d))
 * test added version patch ([7659377](https://github.com/ZCodeTemplates/npm-pkg-template/commit/7659377e676a2093336472455b5800dccf1e6ff3))
 
 
