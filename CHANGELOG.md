@@ -1,3 +1,18 @@
+# [6.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v5.0.0...v6.0.0) (2025-01-23)
+
+
+### Bug Fixes
+
+* test made by me ([6e7a3b8](https://github.com/ZCodeTemplates/npm-pkg-template/commit/6e7a3b8c378dca4ac4efcfdaafab5a447e2c8d44))
+
+
+### Features
+
+* add new feature ([8174123](https://github.com/ZCodeTemplates/npm-pkg-template/commit/8174123d0c0ad7cf2c0e11643334f01c5fa0a0d2))
+* add new feature ([d2b1003](https://github.com/ZCodeTemplates/npm-pkg-template/commit/d2b10035bd0002399ece24ca10db954cf1833a67))
+
+
+
 # [5.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v4.0.0...v5.0.0) (2025-01-23)
 
 
