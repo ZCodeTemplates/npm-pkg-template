@@ -1,6 +1,6 @@
 {
   "name": "npm-pkg",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "npm package template with tsup and typescript",
   "scripts": {
     "build:api": "npx tsc && npx api-extractor run --local",
