@@ -1,11 +1,12 @@
 {
   "name": "npm-pkg",
-  "version": "0.0.6",
+  "version": "1.0.2",
   "description": "npm package template with tsup and typescript",
   "scripts": {
     "build:api": "npx tsc && npx api-extractor run --local",
     "build:docs": "api-documenter markdown -i ./temp -o ./api-docs",
-    "build": "npm run build:api && npm run build:docs"
+    "generate:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "build": "generate:changelog && npm run build:api && npm run build:docs"
   },
   "homepage": "https://github.com/koji/npm-package-template-tsup",
   "url": "https://github.com/koji/npm-package-template-tsup/issue",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@microsoft/api-documenter": "^7.26.5",
     "@microsoft/api-extractor": "^7.49.1",
+    "conventional-changelog-cli": "^5.0.0",
     "release-please": "^16.15.0",
     "typescript": "^5.1.3"
   },
