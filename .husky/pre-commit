@@ -3,10 +3,5 @@
 
 npm run generate:changelog
 
-git status
-
 git add CHANGELOG.md
-
-git diff --cached
-
 
