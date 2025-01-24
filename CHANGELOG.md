@@ -3,6 +3,7 @@
 
 ### Features
 
+* added husky ([0d72b0b](https://github.com/ZCodeTemplates/npm-pkg-template/commit/0d72b0bb67e196941289ec743c0991a85b6aaba4))
 * bumped the version to 7.0.0 ([426bbcd](https://github.com/ZCodeTemplates/npm-pkg-template/commit/426bbcd4dc86c420e7aec5098d52777bbc8c597a))
 
 
