@@ -3,6 +3,12 @@
 
 npm run generate:changelog
 
+# Check if there are changes in the changelog file
+if git diff --cached --exit-code CHANGELOG.md; then
+  # No changes in the changelog, exit the script
+  exit 0
+fi
+
 git add CHANGELOG.md
 
 git commit --amend --no-edit
