@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-sub: (a: number, b: number) => number
+sub: (a: string, b: string) => string
 ```
 
 ## Parameters
@@ -35,7 +35,7 @@ a
 
 </td><td>
 
-number
+string
 
 
 </td><td>
@@ -49,7 +49,7 @@ b
 
 </td><td>
 
-number
+string
 
 
 </td><td>
@@ -59,5 +59,5 @@ number
 </tbody></table>
 **Returns:**
 
-number
+string
 

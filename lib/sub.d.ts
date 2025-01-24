@@ -1,1 +1,1 @@
-export declare const sub: (a: number, b: number) => number;
+export declare const sub: (a: string, b: string) => string;

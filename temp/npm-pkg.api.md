@@ -11,7 +11,7 @@ export const add: (a: number, b: number) => number;
 export const add23: (a: number, b: number) => number;
 
 // @public (undocumented)
-export const sub: (a: number, b: number) => number;
+export const sub: (a: string, b: string) => string;
 
 // (No @packageDocumentation comment for this package)
 

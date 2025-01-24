@@ -297,7 +297,7 @@
             },
             {
               "kind": "Content",
-              "text": "number"
+              "text": "string"
             },
             {
               "kind": "Content",
@@ -305,7 +305,7 @@
             },
             {
               "kind": "Content",
-              "text": "number"
+              "text": "string"
             },
             {
               "kind": "Content",
@@ -313,7 +313,7 @@
             },
             {
               "kind": "Content",
-              "text": "number"
+              "text": "string"
             }
           ],
           "fileUrlPath": "src/sub.ts",
