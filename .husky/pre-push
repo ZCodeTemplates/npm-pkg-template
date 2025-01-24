@@ -1,3 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
 npm run generate:changelog
 
-git add -A
+git add CHANGELOG.md
+
+
