@@ -1,4 +1,4 @@
-# [9.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v6.0.0...v9.0.0) (2025-01-24)
+# [10.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v6.0.0...v10.0.0) (2025-01-24)
 
 
 ### Features
