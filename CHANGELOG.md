@@ -12,6 +12,8 @@
 * 3test ([7eecd3c](https://github.com/ZCodeTemplates/npm-pkg-template/commit/7eecd3cef86c2da020f9891a3d7bf1bcf94b053c))
 * 4test ([0c0a7e0](https://github.com/ZCodeTemplates/npm-pkg-template/commit/0c0a7e0952fd39f9a784f0fc83833637005ec239))
 * 4test ([d6e75d9](https://github.com/ZCodeTemplates/npm-pkg-template/commit/d6e75d953085854a763f40d06b821c1c8f10c29b))
+* 5test ([d65aee8](https://github.com/ZCodeTemplates/npm-pkg-template/commit/d65aee839e461c6a4ad85441b812285c2fe77799))
+* 5test ([7eef7eb](https://github.com/ZCodeTemplates/npm-pkg-template/commit/7eef7eb6eba3e6741e4210e4df0f74ab4c3d2301))
 * added husky ([0d72b0b](https://github.com/ZCodeTemplates/npm-pkg-template/commit/0d72b0bb67e196941289ec743c0991a85b6aaba4))
 * bumped the version to 7.0.0 ([426bbcd](https://github.com/ZCodeTemplates/npm-pkg-template/commit/426bbcd4dc86c420e7aec5098d52777bbc8c597a))
 * test ([92fa52c](https://github.com/ZCodeTemplates/npm-pkg-template/commit/92fa52cbfd73b76dac6a57b9fb9ab878c912aba8))
