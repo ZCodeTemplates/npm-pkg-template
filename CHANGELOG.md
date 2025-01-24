@@ -1,6 +1,11 @@
 # [7.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v6.0.0...v7.0.0) (2025-01-24)
 
 
+### Features
+
+* bumped the version to 7.0.0 ([426bbcd](https://github.com/ZCodeTemplates/npm-pkg-template/commit/426bbcd4dc86c420e7aec5098d52777bbc8c597a))
+
+
 
 # [6.0.0](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v5.0.0...v6.0.0) (2025-01-23)
 

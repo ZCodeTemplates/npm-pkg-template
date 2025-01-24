@@ -19,3 +19,6 @@ Automatically generates detailed API documentation for your project, including f
 
 ### 3. `Tsup`
 A fast and minimal bundler for TypeScript. Tsup compiles TypeScript code into JavaScript, supports multiple output formats (CommonJS, ESM), and can generate type declaration files (`.d.ts`). It offers a zero-config setup and is optimized for speed, making it ideal for bundling TypeScript libraries.
+
+### 4. `Changelog with conventional-changelog-cli`
+Automatically generates a changelog based on your commit history using Conventional Commit messages. Use the following command to create or update the changelog:
