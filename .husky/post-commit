@@ -7,11 +7,11 @@ npm run generate:changelog
 # Check if there are changes in the changelog file
 if git diff --exit-code CHANGELOG.md; then
   # No changes in the changelog, exit the script
-  exit 0
-fi
-
 # Stage the updated changelog file
-git add CHANGELOG.md
+  git add CHANGELOG.md
 
 # Amend the commit with the changelog update
-git commit --amend --no-edit
+  git commit --amend --no-edit
+fi
+
+exit 0
