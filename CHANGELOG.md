@@ -1,4 +1,4 @@
-## [10.0.2](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v6.0.0...v10.0.2) (2025-01-24)
+## [10.0.3](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v6.0.0...v10.0.3) (2025-01-24)
 
 
 ### Bug Fixes
@@ -8,8 +8,10 @@
 
 ### Features
 
+* 2test ([cdf7bae](https://github.com/ZCodeTemplates/npm-pkg-template/commit/cdf7baea1499fbdfc4c8c3338872da5a7f1ae405))
 * added husky ([0d72b0b](https://github.com/ZCodeTemplates/npm-pkg-template/commit/0d72b0bb67e196941289ec743c0991a85b6aaba4))
 * bumped the version to 7.0.0 ([426bbcd](https://github.com/ZCodeTemplates/npm-pkg-template/commit/426bbcd4dc86c420e7aec5098d52777bbc8c597a))
+* test ([92fa52c](https://github.com/ZCodeTemplates/npm-pkg-template/commit/92fa52cbfd73b76dac6a57b9fb9ab878c912aba8))
 
 
 

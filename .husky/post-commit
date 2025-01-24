@@ -5,3 +5,4 @@ npm run generate:changelog
 
 git add CHANGELOG.md
 
+git commit --amend --no-edit
