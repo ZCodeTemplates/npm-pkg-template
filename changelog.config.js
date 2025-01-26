@@ -9,6 +9,7 @@ module.exports = {
   writerOpts: {
     transform: (commit) => {
       const typeMap = {
+        test: 'Tests',
         feature: 'Features',
         fix: 'Bug Fixes',
         docs: 'Documentation'
