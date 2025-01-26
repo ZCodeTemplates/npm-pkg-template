@@ -1,8 +1,15 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+# Run the changelog generation script
 npm run generate:changelog
 
-git add .
+# Check if there are changes in CHANGELOG.md
+if git diff --quiet CHANGELOG.md; then
+  echo "No changes in CHANGELOG.md, skipping commit amendment."
+  exit 0
+fi
 
+# If there are changes, stage the file and amend the commit
+git add CHANGELOG.md
 git commit --amend --no-edit
