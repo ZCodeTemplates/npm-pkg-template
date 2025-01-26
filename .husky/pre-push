@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run generate:metadata
+
+git add .
+
+git commit --amend --no-edit
