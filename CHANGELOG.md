@@ -1,4 +1,4 @@
-## [10.0.6](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v6.0.0...v10.0.6) (2025-01-24)
+## [10.0.7](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v6.0.0...v10.0.7) (2025-01-26)
 
 
 ### Bug Fixes
@@ -16,8 +16,11 @@
 * 5test ([7eef7eb](https://github.com/ZCodeTemplates/npm-pkg-template/commit/7eef7eb6eba3e6741e4210e4df0f74ab4c3d2301))
 * 6test ([e311380](https://github.com/ZCodeTemplates/npm-pkg-template/commit/e311380498dc7f9e815e32dd4ec92a948269fd65))
 * added husky ([0d72b0b](https://github.com/ZCodeTemplates/npm-pkg-template/commit/0d72b0bb67e196941289ec743c0991a85b6aaba4))
+* added husky pre push hook ([3a657f0](https://github.com/ZCodeTemplates/npm-pkg-template/commit/3a657f070f8123f89520abc3959a271e049fc13d))
+* added husky to dev dep ([2a25b27](https://github.com/ZCodeTemplates/npm-pkg-template/commit/2a25b278abff732c7b3455b91f945993f259ad70))
 * bumped the version to 7.0.0 ([426bbcd](https://github.com/ZCodeTemplates/npm-pkg-template/commit/426bbcd4dc86c420e7aec5098d52777bbc8c597a))
 * test ([92fa52c](https://github.com/ZCodeTemplates/npm-pkg-template/commit/92fa52cbfd73b76dac6a57b9fb9ab878c912aba8))
+* updated the version ([5501f43](https://github.com/ZCodeTemplates/npm-pkg-template/commit/5501f437e689f2611893ee2c1df127e1dd06230e))
 
 
 
