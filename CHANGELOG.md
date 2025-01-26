@@ -5,6 +5,18 @@
 * feature: test ([4c848d9828923233a1d9b6f83eaabbb7672f4ce5](https://github.com/ZCodeTemplates/npm-pkg-template/commit/4c848d9828923233a1d9b6f83eaabbb7672f4ce5))
 * feature: test ([2f8fc53a8974c39a8a4ed6134bffb678cc6024f9](https://github.com/ZCodeTemplates/npm-pkg-template/commit/2f8fc53a8974c39a8a4ed6134bffb678cc6024f9))
 * feature: test ([4837ea931e653e25e0b00be9c021d7e0e151bde8](https://github.com/ZCodeTemplates/npm-pkg-template/commit/4837ea931e653e25e0b00be9c021d7e0e151bde8))
+* test: 1 ([44d6cfe40d0c03e7155afa2623bf1e25e2b44e06](https://github.com/ZCodeTemplates/npm-pkg-template/commit/44d6cfe40d0c03e7155afa2623bf1e25e2b44e06))
+* test: 1 ([51052ab5a4b69386177448918966b17df77fc899](https://github.com/ZCodeTemplates/npm-pkg-template/commit/51052ab5a4b69386177448918966b17df77fc899))
+* test: 2 ([cce266c8a297a3d33b29bbba206cf9760b58931e](https://github.com/ZCodeTemplates/npm-pkg-template/commit/cce266c8a297a3d33b29bbba206cf9760b58931e))
+* test: 3 ([675f5bfb5a642e40faf20f049dc64906d3b809d0](https://github.com/ZCodeTemplates/npm-pkg-template/commit/675f5bfb5a642e40faf20f049dc64906d3b809d0))
+* test: 4 ([4324571980d6fa0e43a461a6b370d9c0ed05ad5f](https://github.com/ZCodeTemplates/npm-pkg-template/commit/4324571980d6fa0e43a461a6b370d9c0ed05ad5f))
+* test: test ([000802e2ab1052eae731af033108ddd9d91dac15](https://github.com/ZCodeTemplates/npm-pkg-template/commit/000802e2ab1052eae731af033108ddd9d91dac15))
+* test: test ([831cfe09833364d698b203309869f7c59f2af1a6](https://github.com/ZCodeTemplates/npm-pkg-template/commit/831cfe09833364d698b203309869f7c59f2af1a6))
+* test: testing ([6171a65135f13fbf48164544f9c3d57e3f333d8c](https://github.com/ZCodeTemplates/npm-pkg-template/commit/6171a65135f13fbf48164544f9c3d57e3f333d8c))
+* test: testing2 ([64deb1e3aec2450d81a87fec37170d9be20b0fe7](https://github.com/ZCodeTemplates/npm-pkg-template/commit/64deb1e3aec2450d81a87fec37170d9be20b0fe7))
+* test: testing2 ([05728163723eea0ff9fad809a20d43c18a7c8891](https://github.com/ZCodeTemplates/npm-pkg-template/commit/05728163723eea0ff9fad809a20d43c18a7c8891))
+* test: testing3 ([5023e8c4068e2b3e6d1311fe1096b3bb37f45cd0](https://github.com/ZCodeTemplates/npm-pkg-template/commit/5023e8c4068e2b3e6d1311fe1096b3bb37f45cd0))
+* test: updated version to 8.0.0 ([fdd8f9fde1d963fedcc3af952bd0e3655b88027d](https://github.com/ZCodeTemplates/npm-pkg-template/commit/fdd8f9fde1d963fedcc3af952bd0e3655b88027d))
 
 
 
