@@ -20,7 +20,7 @@
 * added husky to dev dep ([2a25b27](https://github.com/ZCodeTemplates/npm-pkg-template/commit/2a25b278abff732c7b3455b91f945993f259ad70))
 * bumped the version to 7.0.0 ([426bbcd](https://github.com/ZCodeTemplates/npm-pkg-template/commit/426bbcd4dc86c420e7aec5098d52777bbc8c597a))
 * test ([92fa52c](https://github.com/ZCodeTemplates/npm-pkg-template/commit/92fa52cbfd73b76dac6a57b9fb9ab878c912aba8))
-* updated the version ([5501f43](https://github.com/ZCodeTemplates/npm-pkg-template/commit/5501f437e689f2611893ee2c1df127e1dd06230e))
+* updated the version ([d916890](https://github.com/ZCodeTemplates/npm-pkg-template/commit/d9168903947ba16316669fabc7f2458a3757ecb6))
 
 
 
