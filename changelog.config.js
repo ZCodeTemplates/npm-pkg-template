@@ -15,6 +15,7 @@ module.exports = {
         docs: 'Documentation'
       };
 
+
       // Skip commits without recognized types
       if (!commit.type || !typeMap[commit.type]) {
         return null;
