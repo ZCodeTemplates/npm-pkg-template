@@ -1,5 +1,24 @@
 module.exports = {
   writerOpts: {
+    transform: (commit, context) => {
+      const typeMap = {
+        feat: "Features",
+        fix: "Bug Fixes",
+        test: "Tests",
+        docs: "Documentation",
+        style: "Code Style",
+        refactor: "Code Refactoring",
+        perf: "Performance Improvements",
+        chore: "Chores",
+      };
+
+      if (!typeMap[commit.type]) {
+        return null; // Skip commits with unrecognized types
+      }
+
+      commit.type = typeMap[commit.type];
+      return commit;
+    },
     groupBy: "type",
     commitGroupsSort: "title",
     commitsSort: ["scope", "subject"],
@@ -13,24 +32,6 @@ module.exports = {
         {{/each}}
       {{/each}}
     `,
-    // Mapping commit types to titles
-    transform: (commit, context) => {
-      const typeMap = {
-        feature: "Features",
-        fix: "Bug Fixes",
-        test: "Tests",
-        docs: "Documentation",
-        style: "Code Style",
-        refactor: "Code Refactoring",
-        perf: "Performance Improvements",
-        chore: "Chores"
-      };
-
-      // Map the commit type to a section title
-      commit.type = typeMap[commit.type] || commit.type;
-
-      // Return commits with type mapped, so they are grouped correctly
-      return commit;
-    }
-  }
+    headerPartial: `# {{version}} ({{date}})\n\n`,
+  },
 };
