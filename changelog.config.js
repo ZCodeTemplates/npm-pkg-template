@@ -1,34 +1,53 @@
+const types = [
+  { type: 'feat', section: 'Features' },
+  { type: 'feature', section: 'Features' },
+  { type: 'fix', section: 'Bug Fixes' },
+  { type: 'docs', section: 'Documentation' },
+  { type: 'chore', section: 'Chores', hidden: true }
+];
+
+// Automatically generate typeMap from types
+const typeMap = types.reduce((map, type) => {
+  if (!type.hidden) {
+    map[type.type] = type.section;
+  }
+  return map;
+}, {});
+
 module.exports = {
-  types: [
-    { type: 'feature', section: 'Features' },
-    { type: 'test', section: 'Tests' },
-    { type: 'fix', section: 'Bug Fixes' },
-    { type: 'docs', section: 'Documentation' },
-    { type: 'chore', section: 'Chores', hidden: true }
-  ],
+  types,
   writerOpts: {
     transform: (commit) => {
-      const typeMap = {
-        test: 'Tests',
-        feature: 'Features',
-        fix: 'Bug Fixes',
-        docs: 'Documentation'
-      };
-
-
-      // Skip commits without recognized types
+      // Skip unrecognized commit types
       if (!commit.type || !typeMap[commit.type]) {
         return null;
       }
 
-      // Return a new object with the modified type
+      // Map the commit type to the corresponding section title
       return {
-        ...commit, // Copy all existing properties
-        type: typeMap[commit.type] // Replace the type with the mapped section title
+        ...commit,
+        type: typeMap[commit.type]
       };
     },
-    groupBy: 'type', // Group commits by the `type` field
-    commitGroupsSort: 'title', // Sort groups alphabetically
-    commitsSort: ['scope', 'subject'] // Sort commits within each group
+    groupBy: 'type',
+    commitGroupsSort: 'title',
+    commitsSort: ['scope', 'subject'],
+    mainTemplate: `
+# {{version}} ({{date}})
+
+{{#each commitGroups}}
+## {{title}}
+
+{{#each commits}}
+- {{this.subject}} ([{{this.hash}}](https://github.com/<owner>/<repo>/commit/{{this.hash}}))
+{{/each}}
+
+{{/each}}
+    `,
+    headerPartial: `
+{{#if title}}
+## {{title}}
+{{/if}}
+    `
   }
 };
