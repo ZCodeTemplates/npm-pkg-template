@@ -1,6 +1,7 @@
 module.exports = {
   types: [
     { type: 'feature', section: 'Features' },
+    { type: 'test', section: 'Tests' },
     { type: 'fix', section: 'Bug Fixes' },
     { type: 'docs', section: 'Documentation' },
     { type: 'chore', section: 'Chores', hidden: true }
