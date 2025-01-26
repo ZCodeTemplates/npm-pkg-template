@@ -8,7 +8,8 @@
     "generate:changelog": "npx conventional-changelog-cli -p conventionalcommits -i CHANGELOG.md -s -r 0 --config ./changelog.config.js",
     "generate:append-last-version-changelog": "npx conventional-changelog-cli -i CHANGELOG.md -s -r 1 --verbose --config ./changelog.config.js",
     "generate:metadata": "npm run generate:changelog && npm run generate:api-types && npm run generate:docs",
-    "build": "npm run generate:metadata && tsup src/index.ts"
+    "build": "npm run generate:metadata && tsup src/index.ts",
+    "postinstall": "husky install"
   },
   "homepage": "https://github.com/koji/npm-package-template-tsup",
   "url": "https://github.com/koji/npm-package-template-tsup/issue",
