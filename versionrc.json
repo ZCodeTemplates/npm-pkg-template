@@ -1,0 +1,23 @@
+{
+  "header": "# Changelog",
+  "types": [
+    { "type": "feature", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "docs", "section": "Documentation", "hidden": false },
+    { "type": "chore", "section": "Chores", "hidden": true },
+    { "type": "style", "section": "Code Style", "hidden": true },
+    { "type": "refactor", "section": "Code Refactoring" },
+    { "type": "perf", "section": "Performance Improvements" },
+    { "type": "test", "section": "Tests" },
+    { "type": "build", "section": "Build System", "hidden": false },
+    { "type": "ci", "section": "Continuous Integration", "hidden": false }
+  ],
+  "releaseCommitMessageFormat": "chore(release): {{currentTag}}",
+  "commitUrlFormat": "https://github.com/<user>/<repo>/commit/{{hash}}",
+  "compareUrlFormat": "https://github.com/<user>/<repo>/compare/{{previousTag}}...{{currentTag}}",
+  "issueUrlFormat": "https://github.com/<user>/<repo>/issues/{{id}}",
+  "issuePrefixes": ["#", "GH-"],
+  "skip": {
+    "tag": false
+  }
+}

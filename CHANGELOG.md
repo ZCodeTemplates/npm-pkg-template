@@ -1,4 +1,4 @@
-## [10.0.7](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v6.0.0...v10.0.7) (2025-01-26)
+## [10.1.7](https://github.com/ZCodeTemplates/npm-pkg-template/compare/v6.0.0...v10.1.7) (2025-01-26)
 
 
 ### Bug Fixes

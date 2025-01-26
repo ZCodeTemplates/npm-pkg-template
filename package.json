@@ -1,12 +1,12 @@
 {
   "name": "npm-pkg",
-  "version": "10.0.7",
+  "version": "10.1.7",
   "description": "npm package template with tsup and typescript",
   "scripts": {
     "generate:api-types": "npx tsc && npx api-extractor run --local",
     "generate:docs": "api-documenter markdown -i ./temp -o ./api-docs",
-    "generate:changelog": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s -r 0",
-    "generate:append-last-version-changelog": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s -r 1 --verbose --config changelog.config.js",
+    "generate:changelog": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s -r 0 --config ./changelog.config.js",
+    "generate:append-last-version-changelog": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s -r 1 --verbose",
     "generate:metadata": "npm run generate:changelog && npm run generate:api-types && npm run generate:docs",
     "build": "npm run generate:metadata && tsup src/index.ts"
   },
